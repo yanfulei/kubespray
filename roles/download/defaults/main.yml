@@ -98,7 +98,7 @@ dnsmasq_version: 2.78
 dnsmasq_image_repo: "andyshinn/dnsmasq"
 dnsmasq_image_tag: "{{ dnsmasq_version }}"
 kubedns_version: 1.14.8
-kubedns_image_repo: "gcr.io/google_containers/k8s-dns-kube-dns-amd64"
+kubedns_image_repo: "registry.cn-hangzhou.aliyuncs.com/yanfulei/gcr.io_google_containers_k8s-dns-kube-dns-amd64"
 kubedns_image_tag: "{{ kubedns_version }}"
 dnsmasq_nanny_image_repo: "registry.cn-hangzhou.aliyuncs.com/yanfulei/gcr.io_google_containers_k8s-dns-dnsmasq-nanny-amd64"
 dnsmasq_nanny_image_tag: "{{ kubedns_version }}"
